@@ -34,16 +34,15 @@ The CoNLL-2012 Shared coreference dataset has been used to train the neural netw
 
 ### Information about the notebooks
 
-All the work has been implemented using Jupyter notebooks.
+1. All the work has been implemented using Jupyter notebooks.
 
-The parsing of the ConLL-2012 dataset to extract the features and prepare the training data has been implemented in notebooks/parse_conll_dataset.
+2. The parsing of the ConLL-2012 dataset to extract the features and prepare the training data has been implemented in notebooks/parse_conll_dataset.
 
-The two neural network models used in this work are with bunary classification and probability as output and have been implemented in notebooks/FFNN_binary_classification
-and notebooks/FFNN_probability.
+3. The two neural network models used in this work are with bunary classification and probability as output and have been implemented in notebooks/FFNN_binary_classification and notebooks/FFNN_probability.
 
-To check the real world examples for the trained model has been implemented in notebooks/ResolveCoreference.
+4. To check the real world examples for the trained model has been implemented in notebooks/ResolveCoreference.
 
-The analysis performed on the entites and the mentions has been implemented in notebooks/mention-ner_comparison
+5. The analysis performed on the entites and the mentions has been implemented in notebooks/mention-ner_comparison
 
 ### Training the Neural Network
 Steps that needs to be performed to train the neural network are as follows:
